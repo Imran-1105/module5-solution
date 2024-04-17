@@ -1,0 +1,89 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* Custom CSS for centered dropdown */
+.navbar-nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /* Custom CSS for fixed dropdown */
+  .dropdown-menu-fixed {
+    position: fixed;
+    top: 56px; /* Adjust this value according to your navbar height */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  @media screen(max-width:1200px){  
+
+  }
+.navbar{
+    float: right;
+}
+ul li{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    bottom: 100px;
+    right: 90px;
+}
+ul li a{
+   font-size: 23px;
+   color: black;
+   padding: 30px;  
+}
+.logo-container {
+   position: relative;
+   background-color: lightsteelblue;
+}
+.img-fluid{
+   position: relative;
+   width: 170px;
+   bottom: 10px;
+   left: 20px;
+   padding: 25px 15px 0px 0px;
+}
+ .logo{
+    position: absolute;
+    top: 25px;
+    left: 16%;
+ }
+ .logos{
+    padding: 40px;
+ }
+ .logo2{
+    position: relative;
+    width: 50px;
+    bottom: 146em;
+    left: 44em;
+ }
+
+ .owner{
+    position: relative;
+    left: 17%;
+    bottom: 33.5em;
+ }
+ .owner-logo{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    width: 60px;
+ }
+ .bg-image {
+   background-image: url('rest5.avif');
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+ }
+ @media screen and (max-width:768px) {
+   .navbar{
+      display: none;
+   }
+   .logos{
+      display: none;
+   }
+   .nnav-item dropdow{
+      display: block;
+   }
+ }
