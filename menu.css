@@ -1,0 +1,77 @@
+.navbar{
+    float: right;
+}
+ul li{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    bottom: 100px;
+    right: 90px;
+}
+ul li a{
+   font-size: 23px;
+   color: black;
+   padding: 30px;  
+}
+.logo-container {
+   position: relative;
+   background-color: lightsteelblue;
+}
+.img-fluid{
+   position: relative;
+   width: 170px;
+   bottom: 10px;
+   left: 20px;
+   padding: 25px 15px 0px 0px;
+}
+ .logo{
+    position: absolute;
+    top: 25px;
+    left: 16%;
+ }
+ .logos{
+    padding: 40px;
+ }
+ .logo2{
+    position: relative;
+    width: 50px;
+    bottom: 146em;
+    left: 44em;
+ }
+ .owner{
+    position: relative;
+    left: 17%;
+    bottom: 33.5em;
+ }
+ .owner-logo{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    width: 60px;
+ }
+ .bg-image {
+   background-color: orange;
+   background-position: center;
+   position: relative;
+   height: 100vh;
+ }
+ .lunch{
+   text-align: center;
+   position: absolute;
+   top: 5em;
+   left: 13em;
+   
+
+ }
+ 
+ @media screen and (max-width:768px) {
+   .navbar{
+      display: none;
+   }
+   .logos{
+      display: none;
+   }
+   .nnav-item dropdow{
+      display: block;
+   }
+ }
